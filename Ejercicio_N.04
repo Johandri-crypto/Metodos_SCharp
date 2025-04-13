@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static double ConvertirADOP(double dolares)
+    {
+        double tasa = 58.5; // Ejemplo de tasa de cambio
+        return dolares * tasa;
+    }
+
+    static void Main()
+    {
+        double resultado = ConvertirADOP(10);
+        Console.WriteLine("10 dólares equivalen a " + resultado + " pesos dominicanos.");
+    }
+}
